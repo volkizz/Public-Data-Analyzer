@@ -1,0 +1,6 @@
+2016-10-27 19:01:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "CODE NVARCHAR(3) NOT NULL": "'qwer' (4)"; SQL statement:
+insert into Country (adultLiteracyRate, internetUsers, name, code) values (?, ?, ?, ?) [22001-192]
+2016-10-27 19:10:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "CODE NVARCHAR(3) NOT NULL": "'QWER' (4)"; SQL statement:
+insert into Country (adultLiteracyRate, internetUsers, name, code) values (?, ?, ?, ?) [22001-192]

@@ -1,0 +1,16 @@
+group 'com.nago'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.hibernate:hibernate-core:5.2.2.Final'
+    compile 'com.h2database:h2:1.4.192'
+    runtime 'javax.transaction:jta:1.1'
+}
